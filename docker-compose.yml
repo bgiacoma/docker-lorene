@@ -1,0 +1,8 @@
+services:
+  jupyter-notebook:
+    image: bgiacoma/lorene:1.0
+    hostname: lorene-notebook
+    container_name: lorene-notebook
+    ports:
+      - "8888:8888"
+
